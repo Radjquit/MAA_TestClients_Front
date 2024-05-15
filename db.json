@@ -1,0 +1,64 @@
+{
+  "clients": [
+    {
+      "nom": "Spaak",
+      "prenom": "Chloé",
+      "login": "ergfzrtgr",
+      "motDePasse": "pouet",
+      "adresse": {
+        "numero": "5424",
+        "rue": "allée jean jaures",
+        "ville": "Nantes"
+      },
+      "id": "b2c1"
+    },
+    {
+      "id": "0",
+      "nom": "alexane",
+      "prenom": "Durozier",
+      "login": "azrfeargf",
+      "motDePasse": "",
+      "adresse": {
+        "numero": "erfgzertg",
+        "rue": "grtgrztbg",
+        "ville": "rtgrztgzrt"
+      }
+    },
+    {
+      "id": "0",
+      "nom": "SPAAK",
+      "prenom": "Marine",
+      "login": "SPAAKM",
+      "motDePasse": "",
+      "adresse": {
+        "numero": "45356",
+        "rue": "rrfghtr",
+        "ville": "tbertbrtgb"
+      }
+    },
+    {
+      "id": "0",
+      "nom": "Alexane",
+      "prenom": "Durozier",
+      "login": "Quinn_Z",
+      "motDePasse": "",
+      "adresse": {
+        "numero": "39247",
+        "rue": "place du Capitole",
+        "ville": "Toulouse"
+      }
+    },
+    {
+      "id": 0,
+      "nom": "et",
+      "prenom": "un",
+      "login": "et",
+      "motDePasse": "",
+      "adresse": {
+        "numero": "deu",
+        "rue": "et ",
+        "ville": "trois"
+      }
+    }
+  ]
+}
