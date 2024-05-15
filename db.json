@@ -1,0 +1,52 @@
+{
+  "clients": [
+    {
+      "id": "0",
+      "nom": "Acme Fresh Start Housing",
+      "prenom": "Chicago",
+      "login": "drfdrgdr",
+      "mdp": "Chicago",
+      "adresse": {
+        "numero": "Chicago",
+        "rue": "Chicago",
+        "ville": "Chicago"
+      }
+    },
+    {
+      "id": "1",
+      "nom": "dupont",
+      "prenom": "jean",
+      "login": "jp225",
+      "motDePasse": "",
+      "adresse": {
+        "numero": "125",
+        "rue": "rue de je sais pas",
+        "ville": "je ne sais où"
+      }
+    },
+    {
+      "id": "4",
+      "nom": "blublu",
+      "prenom": "blblb",
+      "login": "ergref",
+      "motDePasse": "",
+      "adresse": {
+        "numero": "545646",
+        "rue": "eftzesf",
+        "ville": "egfzse"
+      }
+    },
+    {
+      "id": 0,
+      "nom": "blublu",
+      "prenom": "blblb",
+      "login": "j245",
+      "motDePasse": "",
+      "adresse": {
+        "numero": "00000",
+        "rue": "rue de je sais pas",
+        "ville": "je ne sais où"
+      }
+    }
+  ]
+}
