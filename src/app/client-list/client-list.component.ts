@@ -10,8 +10,9 @@ export class ClientListComponent implements OnInit {
 
   client: any = [];
 
+
   constructor(
-    public service: ClientService
+    public service: ClientService,
   ) { }
 
   ngOnInit() {

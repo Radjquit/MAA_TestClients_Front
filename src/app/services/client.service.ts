@@ -10,16 +10,17 @@ import { Client } from '../model/client';
 
 export class ClientService {
 
-     //endpoint = 'http://localhost:3000';
-    endpoint = 'http://localhost:8080/myapp';
+    //endpoint = 'http://localhost:3000';
+    endpoint = 'http://localhost:8080';
 
     constructor(private http: HttpClient) { }
 
      httpOptions = {
         headers: new HttpHeaders({
-             'Content-Type': 'application/json',
-            'Access-Control-Allow-Origin' : '*'
-        })
+              'Content-Type': 'application/json',
+              'Accept': 'application/json',
+             'Access-Control-Allow-Origin' : '*'
+         })
     }
 
 
@@ -46,13 +47,13 @@ export class ClientService {
     }
 
     updateClient(id:any, client:Client): Observable<Client> {
-        return this.http.put<Client>(this.endpoint + '/clients/', JSON.stringify(client), this.httpOptions)
+        return this.http.put<Client>(this.endpoint + '/clients/' + id, JSON.stringify(client), this.httpOptions)
             .pipe(
                 catchError(this.handleError)
             )
     }
 
-    deleteClient(id:any) {
+    deleteClient(id:number) {
         return this.http.delete<Client>(this.endpoint + '/clients/' + id, this.httpOptions)
             .pipe(
                 catchError(this.handleError)

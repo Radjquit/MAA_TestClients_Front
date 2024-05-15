@@ -1,0 +1,16 @@
+{
+  "clients": [
+    {
+      "id": "1",
+      "nom": "Rollinger",
+      "prenom": "Morgane",
+      "login": "mrolle",
+      "motDePasse": "12345",
+      "adresse": {
+        "numero": "2",
+        "rue": "rue montee",
+        "ville": "Paris"
+      }
+    }
+  ]
+}

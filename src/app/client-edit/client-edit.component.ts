@@ -11,8 +11,8 @@ import { Adresse } from '../model/adresse';
 })
 
 export class ClientEditComponent implements OnInit {
-  id = this.activatedRoute.snapshot.params['id'];
   clientDetails: any = {};
+  id = this.activatedRoute.snapshot.params['id'];
 
   constructor( private service: ClientService, private activatedRoute: ActivatedRoute, private router: Router) {
       this.clientDetails = new Client();
